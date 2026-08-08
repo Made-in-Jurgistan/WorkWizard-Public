@@ -11,7 +11,7 @@
 <p>
   <img src="https://img.shields.io/badge/backend-FastAPI-009688?logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/frontend-React%2019-61DAFB?logo=react&logoColor=black" alt="React 19" />
-  <img src="https://img.shields.io/badge/AI-Kimi%20K2-7C3AED" alt="Kimi K2" />
+  <img src="https://img.shields.io/badge/AI-Kimi%20K2.7%20HighSpeed-7C3AED" alt="Kimi K2.7 HighSpeed" />
   <img src="https://img.shields.io/badge/data-Supabase-3ECF8E?logo=supabase&logoColor=white" alt="Supabase" />
 </p>
 
@@ -70,7 +70,7 @@ or photo     interests         per exercise    scored       PDF
 |-------|-----------|
 | Frontend | React 19, TypeScript 5.x, Vite, Tailwind CSS |
 | Backend | Python 3.12, FastAPI, Pydantic v2, structlog |
-| AI | Kimi K2 (256K context), Mistral OCR |
+| AI | Kimi K2.7-code HighSpeed (transform), K2.6 (judge), Mistral OCR |
 | Embeddings | paraphrase-multilingual-MiniLM-L12-v2 (384-dim, multilingual) |
 | Data | Supabase Postgres with pgvector |
 | Testing | pytest, Vitest, Playwright |
@@ -85,7 +85,7 @@ or photo     interests         per exercise    scored       PDF
 - **Grade-aware** — 7 grade bands with calibrated scaffolding and age-appropriate humor
 - **Subject-aware** — hint discipline and evaluation criteria adapt to subject domain
 - **Pedagogically grounded** — all 13 frameworks active (16 routed labels)
-- **Quality-scored** — multi-dimensional scoring with retry loop
+- **Quality-scored** — multi-dimensional scoring with LLM-as-judge (K2.6 Instant mode)
 
 ## What Is Not Disclosed
 
